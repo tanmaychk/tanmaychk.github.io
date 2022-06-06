@@ -1,3 +1,3 @@
-[submodule "themes/academia-hugo.git"]
-	path = themes/academia-hugo.git
+[submodule "themes/academia-hugo"]
+	path = themes/academia-hugo
 	url = https://github.com/tanmaychk/academia-hugo.git
