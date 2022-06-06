@@ -1,199 +1,26 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on Tanmay Chakrabarty</title><link>https://tanmaychk.github.io/post/</link><description>Recent content in Posts on Tanmay Chakrabarty</description><generator>Source Themes academia (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Copyright &amp;copy; {year}</copyright><lastBuildDate>Tue, 05 Feb 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://tanmaychk.github.io/post/index.xml" rel="self" type="application/rss+xml"/><item><title>Display Jupyter Notebooks with academia</title><link>https://tanmaychk.github.io/post/jupyter/</link><pubDate>Tue, 05 Feb 2019 00:00:00 +0000</pubDate><guid>https://tanmaychk.github.io/post/jupyter/</guid><description>&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-python" data-lang="python">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#f92672">from&lt;/span> IPython.core.display &lt;span style="color:#f92672">import&lt;/span> Image
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>Image(&lt;span style="color:#e6db74">&amp;#39;https://www.python.org/static/community_logos/python-logo-master-v3-TM-flattened.png&amp;#39;&lt;/span>)
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>&lt;img src="./academia_0_0.png" alt="png">&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-python" data-lang="python">&lt;span style="display:flex;">&lt;span>print(&lt;span style="color:#e6db74">&amp;#34;Welcome to academia!&amp;#34;&lt;/span>)
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;pre>&lt;code>Welcome to academia!
-&lt;/code>&lt;/pre>
-&lt;h2 id="install-python-and-jupyter">Install Python and Jupyter&lt;/h2>
-&lt;p>&lt;a href="https://www.anaconda.com/distribution/#download-section">Install Anaconda&lt;/a> which includes Python 3 and Jupyter notebook.&lt;/p>
-&lt;p>Otherwise, for advanced users, install Jupyter notebook with &lt;code>pip3 install jupyter&lt;/code>.&lt;/p>
-&lt;h2 id="create-a-new-blog-post-as-usualhttpssourcethemescomacademicdocsmanaging-contentcreate-a-blog-post">Create a new blog post &lt;a href="https://sourcethemes.com/academic/docs/managing-content/#create-a-blog-post">as usual&lt;/a>&lt;/h2>
-&lt;p>Run the following commands in your Terminal, substituting &lt;code>&amp;lt;MY_WEBSITE_FOLDER&amp;gt;&lt;/code> and &lt;code>my-post&lt;/code> with the file path to your academia website folder and a name for your blog post (without spaces), respectively:&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>cd &amp;lt;MY_WEBSITE_FOLDER&amp;gt;
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>hugo new --kind post post/my-post
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>cd &amp;lt;MY_WEBSITE_FOLDER&amp;gt;/content/post/my-post/
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="create-or-upload-a-jupyter-notebook">Create or upload a Jupyter notebook&lt;/h2>
-&lt;p>Run the following command to start Jupyter within your new blog post folder. Then create a new Jupyter notebook (&lt;em>New &amp;gt; Python Notebook&lt;/em>) or upload a notebook.&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>jupyter notebook
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="convert-notebook-to-markdown">Convert notebook to Markdown&lt;/h2>
-&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>jupyter nbconvert Untitled.ipynb --to markdown --NbConvertApp.output_files_dir&lt;span style="color:#f92672">=&lt;/span>.
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e"># Copy the contents of Untitled.md and append it to index.md:&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>cat Untitled.md | tee -a index.md
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e"># Remove the temporary file:&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>rm Untitled.md
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="edit-your-post-metadata">Edit your post metadata&lt;/h2>
-&lt;p>Open &lt;code>index.md&lt;/code> in your text editor and edit the title etc. in the &lt;a href="https://sourcethemes.com/academic/docs/front-matter/">front matter&lt;/a> according to your preference.&lt;/p>
-&lt;p>To set a &lt;a href="https://sourcethemes.com/academic/docs/managing-content/#featured-image">featured image&lt;/a>, place an image named &lt;code>featured&lt;/code> into your post&amp;rsquo;s folder.&lt;/p>
-&lt;p>For other tips, such as using math, see the guide on &lt;a href="https://sourcethemes.com/academic/docs/writing-markdown-latex/">writing content with academia&lt;/a>.&lt;/p></description></item><item><title>A Study of Snail Behavior</title><link>https://tanmaychk.github.io/post/snail/</link><pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate><guid>https://tanmaychk.github.io/post/snail/</guid><description>&lt;p>&lt;strong>Create a free website with academia using Markdown, Jupyter, or RStudio. Choose a beautiful color theme and build anything with the Page Builder - over 40 &lt;em>widgets&lt;/em>, &lt;em>themes&lt;/em>, and &lt;em>language packs&lt;/em> included!&lt;/strong>&lt;/p>
-&lt;p>&lt;a href="https://academia-demo.netlify.com/">Check out the latest &lt;strong>demo&lt;/strong>&lt;/a> of what you&amp;rsquo;ll get in less than 10 minutes, or &lt;a href="https://sourcethemes.com/academic/#expo">view the &lt;strong>showcase&lt;/strong>&lt;/a> of personal, project, and business sites.&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on Tanmay Chakrabarty</title><link>https://tanmaychk.github.io/post/</link><description>Recent content in Posts on Tanmay Chakrabarty</description><generator>Source Themes academia (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Copyright &amp;copy; {year}</copyright><lastBuildDate>Fri, 03 Jun 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://tanmaychk.github.io/post/index.xml" rel="self" type="application/rss+xml"/><item><title>What impact does Web3 have on a developer's life?</title><link>https://tanmaychk.github.io/post/web3/</link><pubDate>Fri, 03 Jun 2022 00:00:00 +0000</pubDate><guid>https://tanmaychk.github.io/post/web3/</guid><description>&lt;p>Web3, blockchain, and cryptocurrency have all become broad words that have captivated the world&amp;rsquo;s attention due to their incredible benefits and rewards. This popularity has resulted in a large number of employment openings in these disciplines.&lt;/p>
+&lt;h2 id="market-development">Market Development&lt;/h2>
+&lt;p>Web3, blockchain, and cryptocurrency are predicted to grow and spread in the face of a rapidly growing tech market. According to projections, the value of web 3.0 blockchain is expected to reach $6,200 by 2023. Between 2023 and 2030, this market is predicted to develop at a 44.6percent compound annual growth rate (CAGR). While the web 3.0 blockchain business performs admirably, data also show that the crypto market is growing. From 2021 to 2030, the cryptocurrency market, which was worth $1.49 billion in 2020, is predicted to increase at a CAGR of 12.8 percent, reaching a value of roughly $5 billion. The worldwide blockchain market is also booming, with a CAGR of 8.5-9 percent predicted between 2020 and 2030, up from$5.92 billion in 2021.&lt;/p>
+&lt;h2 id="web3">Web3&lt;/h2>
+&lt;p>Web 3.0 is based on decentralised apps that allow everyone to participate without allowing them to monetize their personal information. Web 3.0 is verifiable, self-contained, permissionless, stateful, and includes native payments. Web 3.0 differs from web 2.0 in that it is based on blockchains and relies on a large number of networks and servers.&lt;/p>
+&lt;h2 id="blockchain">Blockchain&lt;/h2>
+&lt;p>Blockchain is a distributed database that distributes data among computer network nodes and keeps it in electronic form, or digital format. The information in blockchain is collected in blocks, which are referred to as groups. Blockchain attempts to make it possible to capture and transmit digital information, but it does not allow for data editing. Blockchains have laid the groundwork for immutable ledgers, or records that can&amp;rsquo;t be modified.&lt;/p>
+&lt;h2 id="crypto">Crypto&lt;/h2>
+&lt;p>Cryptography refers to a variety of encryption algorithms that use cryptographic approaches to protect them, such as public-private key pairs, elliptical curve encryption, and so on. Cryptocurrencies are one of the most popular trading tools since they can be bought or mined via cryptocurrency exchanges. Cryptocurrencies have grown in prominence because they provide a means for speedier money transactions at a lower cost than any other service, and they are based on decentralised systems that do not shut down at a single point of failure or disconnection.&lt;/p>
+&lt;h2 id="a-growing-job-market">A Growing Job Market&lt;/h2>
+&lt;p>As the success rate of cryptocurrencies and blockchain grows year after year, the number of job openings in the blockchain and cryptocurrency business grows. Jobs in blockchain are rising at a rate of 2,000-6,000 percent each year, with pay that are 50-100 percent greater than those of traditional developers. A blockchain developer is a person who works in the field of blockchain technology.&lt;/p>
 &lt;ul>
-&lt;li>&lt;a href="#install">&lt;strong>Setup academia&lt;/strong>&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://sourcethemes.com/academic/docs/get-started/">&lt;strong>Get Started&lt;/strong>&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://sourcethemes.com/academic/docs/">View the documentation&lt;/a>&lt;/li>
-&lt;li>&lt;a href="http://discuss.gohugo.io/">Ask a question&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://github.com/gcushen/hugo-academia/issues">Request a feature or report a bug&lt;/a>&lt;/li>
-&lt;li>Updating? View the &lt;a href="https://sourcethemes.com/academic/docs/update/">Update Guide&lt;/a> and &lt;a href="https://sourcethemes.com/academic/updates/">Release Notes&lt;/a>&lt;/li>
-&lt;li>Support development of academia:
-&lt;ul>
-&lt;li>&lt;a href="https://paypal.me/cushen">Donate a coffee&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://www.patreon.com/cushen">Become a backer on Patreon&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://www.redbubble.com/people/neutreno/works/34387919-academia">Decorate your laptop or journal with an academia sticker&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://academia.threadless.com/">Wear the T-shirt&lt;/a>&lt;/li>
-&lt;/ul>
+&lt;li>
+&lt;p>&lt;strong>Block chain Developer&lt;/strong>: This is a highly marketable professional path in which one assists a company in marketing the blockchain platform and creating a high demand for it, which is becoming much easier now that many people are interested in the benefits block chain has to offer. To pursue this professional path, one must have a few years of experience in fields such as C++, JavaScript, and Python.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Blockchain Project Manager&lt;/strong>: This position requires the development of blockchain solutions as well as cloud project management and basic technical abilities. Work as a solution architect, UX designer, and many other positions are available. Crypto-related job postings increased by 395 percent in 2021 alone. Chief artificial intelligence engineer is one of the most in-demand positions.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Chief Artificial Intelligence Engineer&lt;/strong>: The engineer is in charge of programming and developing algorithms that aid in the development of AI and improve cybersecurity for safe and secure crypto exchanges.&lt;/p>
 &lt;/li>
 &lt;/ul>
-&lt;p>&lt;a href="https://github.com/gcushen/hugo-academia/">&lt;img src="https://raw.githubusercontent.com/gcushen/hugo-academia/master/academia.png" alt="Screenshot">&lt;/a>&lt;/p>
-&lt;p>&lt;strong>Key features:&lt;/strong>&lt;/p>
-&lt;ul>
-&lt;li>&lt;strong>Page builder&lt;/strong> - Create &lt;em>anything&lt;/em> with &lt;a href="https://sourcethemes.com/academic/docs/page-builder/">&lt;strong>widgets&lt;/strong>&lt;/a> and &lt;a href="https://sourcethemes.com/academic/docs/writing-markdown-latex/">&lt;strong>elements&lt;/strong>&lt;/a>&lt;/li>
-&lt;li>&lt;strong>Edit any type of content&lt;/strong> - Blog posts, publications, talks, slides, projects, and more!&lt;/li>
-&lt;li>&lt;strong>Create content&lt;/strong> in &lt;a href="https://sourcethemes.com/academic/docs/writing-markdown-latex/">&lt;strong>Markdown&lt;/strong>&lt;/a>, &lt;a href="https://sourcethemes.com/academic/docs/jupyter/">&lt;strong>Jupyter&lt;/strong>&lt;/a>, or &lt;a href="https://sourcethemes.com/academic/docs/install/#install-with-rstudio">&lt;strong>RStudio&lt;/strong>&lt;/a>&lt;/li>
-&lt;li>&lt;strong>Plugin System&lt;/strong> - Fully customizable &lt;a href="https://sourcethemes.com/academic/themes/">&lt;strong>color&lt;/strong> and &lt;strong>font themes&lt;/strong>&lt;/a>&lt;/li>
-&lt;li>&lt;strong>Display Code and Math&lt;/strong> - Code highlighting and &lt;a href="https://en.wikibooks.org/wiki/LaTeX/Mathematics">LaTeX math&lt;/a> supported&lt;/li>
-&lt;li>&lt;strong>Integrations&lt;/strong> - &lt;a href="https://analytics.google.com">Google Analytics&lt;/a>, &lt;a href="https://disqus.com">Disqus commenting&lt;/a>, Maps, Contact Forms, and more!&lt;/li>
-&lt;li>&lt;strong>Beautiful Site&lt;/strong> - Simple and refreshing one page design&lt;/li>
-&lt;li>&lt;strong>Industry-Leading SEO&lt;/strong> - Help get your website found on search engines and social media&lt;/li>
-&lt;li>&lt;strong>Media Galleries&lt;/strong> - Display your images and videos with captions in a customizable gallery&lt;/li>
-&lt;li>&lt;strong>Mobile Friendly&lt;/strong> - Look amazing on every screen with a mobile friendly version of your site&lt;/li>
-&lt;li>&lt;strong>Multi-language&lt;/strong> - 15+ language packs including English, 中文, and Português&lt;/li>
-&lt;li>&lt;strong>Multi-user&lt;/strong> - Each author gets their own profile page&lt;/li>
-&lt;li>&lt;strong>Privacy Pack&lt;/strong> - Assists with GDPR&lt;/li>
-&lt;li>&lt;strong>Stand Out&lt;/strong> - Bring your site to life with animation, parallax backgrounds, and scroll effects&lt;/li>
-&lt;li>&lt;strong>One-Click Deployment&lt;/strong> - No servers. No databases. Only files.&lt;/li>
-&lt;/ul>
-&lt;h2 id="color-themes">Color Themes&lt;/h2>
-&lt;p>academia comes with &lt;strong>day (light) and night (dark) mode&lt;/strong> built-in. Click the sun/moon icon in the top right of the &lt;a href="https://academia-demo.netlify.com/">Demo&lt;/a> to see it in action!&lt;/p>
-&lt;p>Choose a stunning color and font theme for your site. Themes are fully customizable and include:&lt;/p>
-&lt;div class="gallery">
-&lt;a data-fancybox="gallery-gallery" href="https://tanmaychk.github.io/post/snail/gallery/theme-1950s.png" data-caption="1950s">
-&lt;img src="https://tanmaychk.github.io/post/snail/gallery/theme-1950s_huaf5482f8cea0c5a703a328640e3b7509_21614_0x190_resize_lanczos_3.png" alt="">
-&lt;/a>
-&lt;a data-fancybox="gallery-gallery" href="https://tanmaychk.github.io/post/snail/gallery/theme-apogee.png" data-caption="Apogee">
-&lt;img src="https://tanmaychk.github.io/post/snail/gallery/theme-apogee_hu4b45d99db97150df01464c393bfd17d4_24119_0x190_resize_lanczos_3.png" alt="">
-&lt;/a>
-&lt;a data-fancybox="gallery-gallery" href="https://tanmaychk.github.io/post/snail/gallery/theme-coffee-playfair.png" data-caption="Coffee theme with Playfair font">
-&lt;img src="https://tanmaychk.github.io/post/snail/gallery/theme-coffee-playfair_hu446a8f670cc5622adcc77b97ba95f6c5_22462_0x190_resize_lanczos_3.png" alt="">
-&lt;/a>
-&lt;a data-fancybox="gallery-gallery" href="https://tanmaychk.github.io/post/snail/gallery/theme-dark.png" data-caption="Dark">
-&lt;img src="https://tanmaychk.github.io/post/snail/gallery/theme-dark_hu1e8601ecc47f58eada7743fdcd709d3d_21456_0x190_resize_lanczos_3.png" alt="">
-&lt;/a>
-&lt;a data-fancybox="gallery-gallery" href="https://tanmaychk.github.io/post/snail/gallery/theme-default.png" data-caption="Default">
-&lt;img src="https://tanmaychk.github.io/post/snail/gallery/theme-default_huba6228b7bdf30e2f03f12ea91b2cba0d_21751_0x190_resize_lanczos_3.png" alt="">
-&lt;/a>
-&lt;a data-fancybox="gallery-gallery" href="https://tanmaychk.github.io/post/snail/gallery/theme-forest.png" data-caption="Forest">
-&lt;img src="https://tanmaychk.github.io/post/snail/gallery/theme-forest_hu4f093a1c683134431456584193ea41ee_21797_0x190_resize_lanczos_3.png" alt="">
-&lt;/a>
-&lt;a data-fancybox="gallery-gallery" href="https://tanmaychk.github.io/post/snail/gallery/theme-ocean.png" data-caption="Ocean">
-&lt;img src="https://tanmaychk.github.io/post/snail/gallery/theme-ocean_hu14831ccafc2219f30a7a096fa7617e01_21760_0x190_resize_lanczos_3.png" alt="">
-&lt;/a>
-&lt;a data-fancybox="gallery-gallery" href="https://tanmaychk.github.io/post/snail/gallery/theme-strawberry.png" data-caption="Strawberry">
-&lt;img src="https://tanmaychk.github.io/post/snail/gallery/theme-strawberry_hu36b0b347fcca08bd39e2df22dcedbdfb_39532_0x190_resize_lanczos_3.png" alt="">
-&lt;/a>
-&lt;/div>
-&lt;h2 id="ecosystem">Ecosystem&lt;/h2>
-&lt;ul>
-&lt;li>&lt;strong>&lt;a href="https://github.com/sourcethemes/academia-admin">academia Admin&lt;/a>:&lt;/strong> An admin tool to import publications from BibTeX or import assets for an offline site&lt;/li>
-&lt;li>&lt;strong>&lt;a href="https://github.com/sourcethemes/academia-scripts">academia Scripts&lt;/a>:&lt;/strong> Scripts to help migrate content to new versions of academia&lt;/li>
-&lt;/ul>
-&lt;h2 id="install">Install&lt;/h2>
-&lt;p>You can choose from one of the following four methods to install:&lt;/p>
-&lt;ul>
-&lt;li>&lt;a href="https://sourcethemes.com/academic/docs/install/#install-with-web-browser">&lt;strong>one-click install using your web browser (recommended)&lt;/strong>&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://sourcethemes.com/academic/docs/install/#install-with-git">install on your computer using &lt;strong>Git&lt;/strong> with the Command Prompt/Terminal app&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://sourcethemes.com/academic/docs/install/#install-with-zip">install on your computer by downloading the &lt;strong>ZIP files&lt;/strong>&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://sourcethemes.com/academic/docs/install/#install-with-rstudio">install on your computer with &lt;strong>RStudio&lt;/strong>&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;p>Then &lt;a href="https://sourcethemes.com/academic/docs/get-started/">personalize and deploy your new site&lt;/a>.&lt;/p>
-&lt;h2 id="updating">Updating&lt;/h2>
-&lt;p>&lt;a href="https://sourcethemes.com/academic/docs/update/">View the Update Guide&lt;/a>.&lt;/p>
-&lt;p>Feel free to &lt;em>star&lt;/em> the project on &lt;a href="https://github.com/gcushen/hugo-academia/">Github&lt;/a> to help keep track of &lt;a href="https://sourcethemes.com/academic/updates">updates&lt;/a>.&lt;/p>
-&lt;h2 id="license">License&lt;/h2>
-&lt;p>Copyright 2016-present &lt;a href="https://georgecushen.com">George Cushen&lt;/a>.&lt;/p>
-&lt;p>Released under the &lt;a href="https://github.com/gcushen/hugo-academia/blob/master/LICENSE.md">MIT&lt;/a> license.&lt;/p></description></item><item><title>academia: the website builder for Hugo</title><link>https://tanmaychk.github.io/post/getting-started/</link><pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate><guid>https://tanmaychk.github.io/post/getting-started/</guid><description>&lt;p>&lt;strong>Create a free website with academia using Markdown, Jupyter, or RStudio. Choose a beautiful color theme and build anything with the Page Builder - over 40 &lt;em>widgets&lt;/em>, &lt;em>themes&lt;/em>, and &lt;em>language packs&lt;/em> included!&lt;/strong>&lt;/p>
-&lt;p>&lt;a href="https://academia-demo.netlify.com/">Check out the latest &lt;strong>demo&lt;/strong>&lt;/a> of what you&amp;rsquo;ll get in less than 10 minutes, or &lt;a href="https://sourcethemes.com/academic/#expo">view the &lt;strong>showcase&lt;/strong>&lt;/a> of personal, project, and business sites.&lt;/p>
-&lt;ul>
-&lt;li>&lt;a href="#install">&lt;strong>Setup academia&lt;/strong>&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://sourcethemes.com/academic/docs/get-started/">&lt;strong>Get Started&lt;/strong>&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://sourcethemes.com/academic/docs/">View the documentation&lt;/a>&lt;/li>
-&lt;li>&lt;a href="http://discuss.gohugo.io/">Ask a question&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://github.com/gcushen/hugo-academia/issues">Request a feature or report a bug&lt;/a>&lt;/li>
-&lt;li>Updating? View the &lt;a href="https://sourcethemes.com/academic/docs/update/">Update Guide&lt;/a> and &lt;a href="https://sourcethemes.com/academic/updates/">Release Notes&lt;/a>&lt;/li>
-&lt;li>Support development of academia:
-&lt;ul>
-&lt;li>&lt;a href="https://paypal.me/cushen">Donate a coffee&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://www.patreon.com/cushen">Become a backer on Patreon&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://www.redbubble.com/people/neutreno/works/34387919-academia">Decorate your laptop or journal with an academia sticker&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://academia.threadless.com/">Wear the T-shirt&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;/ul>
-&lt;p>&lt;a href="https://github.com/gcushen/hugo-academia/">&lt;img src="https://raw.githubusercontent.com/gcushen/hugo-academia/master/academia.png" alt="Screenshot">&lt;/a>&lt;/p>
-&lt;p>&lt;strong>Key features:&lt;/strong>&lt;/p>
-&lt;ul>
-&lt;li>&lt;strong>Page builder&lt;/strong> - Create &lt;em>anything&lt;/em> with &lt;a href="https://sourcethemes.com/academic/docs/page-builder/">&lt;strong>widgets&lt;/strong>&lt;/a> and &lt;a href="https://sourcethemes.com/academic/docs/writing-markdown-latex/">&lt;strong>elements&lt;/strong>&lt;/a>&lt;/li>
-&lt;li>&lt;strong>Edit any type of content&lt;/strong> - Blog posts, publications, talks, slides, projects, and more!&lt;/li>
-&lt;li>&lt;strong>Create content&lt;/strong> in &lt;a href="https://sourcethemes.com/academic/docs/writing-markdown-latex/">&lt;strong>Markdown&lt;/strong>&lt;/a>, &lt;a href="https://sourcethemes.com/academic/docs/jupyter/">&lt;strong>Jupyter&lt;/strong>&lt;/a>, or &lt;a href="https://sourcethemes.com/academic/docs/install/#install-with-rstudio">&lt;strong>RStudio&lt;/strong>&lt;/a>&lt;/li>
-&lt;li>&lt;strong>Plugin System&lt;/strong> - Fully customizable &lt;a href="https://sourcethemes.com/academic/themes/">&lt;strong>color&lt;/strong> and &lt;strong>font themes&lt;/strong>&lt;/a>&lt;/li>
-&lt;li>&lt;strong>Display Code and Math&lt;/strong> - Code highlighting and &lt;a href="https://en.wikibooks.org/wiki/LaTeX/Mathematics">LaTeX math&lt;/a> supported&lt;/li>
-&lt;li>&lt;strong>Integrations&lt;/strong> - &lt;a href="https://analytics.google.com">Google Analytics&lt;/a>, &lt;a href="https://disqus.com">Disqus commenting&lt;/a>, Maps, Contact Forms, and more!&lt;/li>
-&lt;li>&lt;strong>Beautiful Site&lt;/strong> - Simple and refreshing one page design&lt;/li>
-&lt;li>&lt;strong>Industry-Leading SEO&lt;/strong> - Help get your website found on search engines and social media&lt;/li>
-&lt;li>&lt;strong>Media Galleries&lt;/strong> - Display your images and videos with captions in a customizable gallery&lt;/li>
-&lt;li>&lt;strong>Mobile Friendly&lt;/strong> - Look amazing on every screen with a mobile friendly version of your site&lt;/li>
-&lt;li>&lt;strong>Multi-language&lt;/strong> - 15+ language packs including English, 中文, and Português&lt;/li>
-&lt;li>&lt;strong>Multi-user&lt;/strong> - Each author gets their own profile page&lt;/li>
-&lt;li>&lt;strong>Privacy Pack&lt;/strong> - Assists with GDPR&lt;/li>
-&lt;li>&lt;strong>Stand Out&lt;/strong> - Bring your site to life with animation, parallax backgrounds, and scroll effects&lt;/li>
-&lt;li>&lt;strong>One-Click Deployment&lt;/strong> - No servers. No databases. Only files.&lt;/li>
-&lt;/ul>
-&lt;h2 id="color-themes">Color Themes&lt;/h2>
-&lt;p>academia comes with &lt;strong>day (light) and night (dark) mode&lt;/strong> built-in. Click the sun/moon icon in the top right of the &lt;a href="https://academia-demo.netlify.com/">Demo&lt;/a> to see it in action!&lt;/p>
-&lt;p>Choose a stunning color and font theme for your site. Themes are fully customizable and include:&lt;/p>
-&lt;div class="gallery">
-&lt;a data-fancybox="gallery-gallery" href="https://tanmaychk.github.io/post/getting-started/gallery/theme-1950s.png" data-caption="1950s">
-&lt;img src="https://tanmaychk.github.io/post/getting-started/gallery/theme-1950s_huaf5482f8cea0c5a703a328640e3b7509_21614_0x190_resize_lanczos_3.png" alt="">
-&lt;/a>
-&lt;a data-fancybox="gallery-gallery" href="https://tanmaychk.github.io/post/getting-started/gallery/theme-apogee.png" data-caption="Apogee">
-&lt;img src="https://tanmaychk.github.io/post/getting-started/gallery/theme-apogee_hu4b45d99db97150df01464c393bfd17d4_24119_0x190_resize_lanczos_3.png" alt="">
-&lt;/a>
-&lt;a data-fancybox="gallery-gallery" href="https://tanmaychk.github.io/post/getting-started/gallery/theme-coffee-playfair.png" data-caption="Coffee theme with Playfair font">
-&lt;img src="https://tanmaychk.github.io/post/getting-started/gallery/theme-coffee-playfair_hu446a8f670cc5622adcc77b97ba95f6c5_22462_0x190_resize_lanczos_3.png" alt="">
-&lt;/a>
-&lt;a data-fancybox="gallery-gallery" href="https://tanmaychk.github.io/post/getting-started/gallery/theme-dark.png" data-caption="Dark">
-&lt;img src="https://tanmaychk.github.io/post/getting-started/gallery/theme-dark_hu1e8601ecc47f58eada7743fdcd709d3d_21456_0x190_resize_lanczos_3.png" alt="">
-&lt;/a>
-&lt;a data-fancybox="gallery-gallery" href="https://tanmaychk.github.io/post/getting-started/gallery/theme-default.png" data-caption="Default">
-&lt;img src="https://tanmaychk.github.io/post/getting-started/gallery/theme-default_huba6228b7bdf30e2f03f12ea91b2cba0d_21751_0x190_resize_lanczos_3.png" alt="">
-&lt;/a>
-&lt;a data-fancybox="gallery-gallery" href="https://tanmaychk.github.io/post/getting-started/gallery/theme-forest.png" data-caption="Forest">
-&lt;img src="https://tanmaychk.github.io/post/getting-started/gallery/theme-forest_hu4f093a1c683134431456584193ea41ee_21797_0x190_resize_lanczos_3.png" alt="">
-&lt;/a>
-&lt;a data-fancybox="gallery-gallery" href="https://tanmaychk.github.io/post/getting-started/gallery/theme-ocean.png" data-caption="Ocean">
-&lt;img src="https://tanmaychk.github.io/post/getting-started/gallery/theme-ocean_hu14831ccafc2219f30a7a096fa7617e01_21760_0x190_resize_lanczos_3.png" alt="">
-&lt;/a>
-&lt;a data-fancybox="gallery-gallery" href="https://tanmaychk.github.io/post/getting-started/gallery/theme-strawberry.png" data-caption="Strawberry">
-&lt;img src="https://tanmaychk.github.io/post/getting-started/gallery/theme-strawberry_hu36b0b347fcca08bd39e2df22dcedbdfb_39532_0x190_resize_lanczos_3.png" alt="">
-&lt;/a>
-&lt;/div>
-&lt;h2 id="ecosystem">Ecosystem&lt;/h2>
-&lt;ul>
-&lt;li>&lt;strong>&lt;a href="https://github.com/sourcethemes/academia-admin">academia Admin&lt;/a>:&lt;/strong> An admin tool to import publications from BibTeX or import assets for an offline site&lt;/li>
-&lt;li>&lt;strong>&lt;a href="https://github.com/sourcethemes/academia-scripts">academia Scripts&lt;/a>:&lt;/strong> Scripts to help migrate content to new versions of academia&lt;/li>
-&lt;/ul>
-&lt;h2 id="install">Install&lt;/h2>
-&lt;p>You can choose from one of the following four methods to install:&lt;/p>
-&lt;ul>
-&lt;li>&lt;a href="https://sourcethemes.com/academic/docs/install/#install-with-web-browser">&lt;strong>one-click install using your web browser (recommended)&lt;/strong>&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://sourcethemes.com/academic/docs/install/#install-with-git">install on your computer using &lt;strong>Git&lt;/strong> with the Command Prompt/Terminal app&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://sourcethemes.com/academic/docs/install/#install-with-zip">install on your computer by downloading the &lt;strong>ZIP files&lt;/strong>&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://sourcethemes.com/academic/docs/install/#install-with-rstudio">install on your computer with &lt;strong>RStudio&lt;/strong>&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;p>Then &lt;a href="https://sourcethemes.com/academic/docs/get-started/">personalize and deploy your new site&lt;/a>.&lt;/p>
-&lt;h2 id="updating">Updating&lt;/h2>
-&lt;p>&lt;a href="https://sourcethemes.com/academic/docs/update/">View the Update Guide&lt;/a>.&lt;/p>
-&lt;p>Feel free to &lt;em>star&lt;/em> the project on &lt;a href="https://github.com/gcushen/hugo-academia/">Github&lt;/a> to help keep track of &lt;a href="https://sourcethemes.com/academic/updates">updates&lt;/a>.&lt;/p>
-&lt;h2 id="license">License&lt;/h2>
-&lt;p>Copyright 2016-present &lt;a href="https://georgecushen.com">George Cushen&lt;/a>.&lt;/p>
-&lt;p>Released under the &lt;a href="https://github.com/gcushen/hugo-academia/blob/master/LICENSE.md">MIT&lt;/a> license.&lt;/p></description></item></channel></rss>
+&lt;p>As we swiftly transition into a new era with new specialities and technology, many chances in organisations and &lt;a href="https://www.investopedia.com/terms/d/decentralized-applications-dapps.asp">dApps&lt;/a> (decentralised applications) that seek to solve difficult challenges are becoming available. You&amp;rsquo;ll also have the opportunity to collaborate with some of the industry&amp;rsquo;s brightest minds.&lt;/p>
+&lt;blockquote>
+&lt;p>&lt;em>Reproduced from my post at &lt;a href="https://dev.to/tanmaychk/what-impact-does-web3-have-on-your-developer-life-1109">Dev.to&lt;/a>&lt;/em>&lt;/p>
+&lt;/blockquote></description></item></channel></rss>
