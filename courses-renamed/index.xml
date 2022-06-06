@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Courses on Tanmay Chakrabarty</title><link>https://tanmaychk.github.io/courses-renamed/</link><description>Recent content in Courses on Tanmay Chakrabarty</description><generator>Source Themes academia (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Copyright &amp;copy; {year}</copyright><lastBuildDate>Sun, 05 May 2019 00:00:00 +0100</lastBuildDate><atom:link href="https://tanmaychk.github.io/courses-renamed/index.xml" rel="self" type="application/rss+xml"/><item><title>Overview 2</title><link>https://tanmaychk.github.io/courses-renamed/example.1/</link><pubDate>Sun, 09 Sep 2018 00:00:00 +0000</pubDate><guid>https://tanmaychk.github.io/courses-renamed/example.1/</guid><description>&lt;h2 id="flexibility">Flexibility&lt;/h2>
+&lt;p>This feature can be used for publishing content such as:&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Online courses&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>Project or software documentation&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>Tutorials&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;p>The &lt;code>courses&lt;/code> folder may be renamed. For example, we can rename it to &lt;code>docs&lt;/code> for software/project documentation or &lt;code>tutorials&lt;/code> for creating an online course.&lt;/p>
+&lt;h2 id="delete-tutorials">Delete tutorials&lt;/h2>
+&lt;p>&lt;strong>To remove these pages, delete the &lt;code>courses&lt;/code> folder and see below to delete the associated menu link.&lt;/strong>&lt;/p>
+&lt;h2 id="update-site-menu">Update site menu&lt;/h2>
+&lt;p>After renaming or deleting the &lt;code>courses&lt;/code> folder, you may wish to update any &lt;code>[[main]]&lt;/code> menu links to it by editing your menu configuration at &lt;code>config/_default/menus.toml&lt;/code>.&lt;/p>
+&lt;p>For example, if you delete this folder, you can remove the following from your menu configuration:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-toml" data-lang="toml">&lt;span style="display:flex;">&lt;span>[[&lt;span style="color:#a6e22e">main&lt;/span>]]
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a6e22e">name&lt;/span> = &lt;span style="color:#e6db74">&amp;#34;Courses&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a6e22e">url&lt;/span> = &lt;span style="color:#e6db74">&amp;#34;courses/&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a6e22e">weight&lt;/span> = &lt;span style="color:#ae81ff">50&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>Or, if you are creating a software documentation site, you can rename the &lt;code>courses&lt;/code> folder to &lt;code>docs&lt;/code> and update the associated &lt;em>Courses&lt;/em> menu configuration to:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-toml" data-lang="toml">&lt;span style="display:flex;">&lt;span>[[&lt;span style="color:#a6e22e">main&lt;/span>]]
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a6e22e">name&lt;/span> = &lt;span style="color:#e6db74">&amp;#34;Docs&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a6e22e">url&lt;/span> = &lt;span style="color:#e6db74">&amp;#34;docs/&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a6e22e">weight&lt;/span> = &lt;span style="color:#ae81ff">50&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="update-the-docs-menu">Update the docs menu&lt;/h2>
+&lt;p>If you use the &lt;em>docs&lt;/em> layout, note that the name of the menu in the front matter should be in the form &lt;code>[menu.X]&lt;/code> where &lt;code>X&lt;/code> is the folder name. Hence, if you rename the &lt;code>courses/example/&lt;/code> folder, you should also rename the menu definitions in the front matter of files within &lt;code>courses/example/&lt;/code> from &lt;code>[menu.example]&lt;/code> to &lt;code>[menu.&amp;lt;NewFolderName&amp;gt;]&lt;/code>.&lt;/p></description></item><item><title>Overview 3</title><link>https://tanmaychk.github.io/courses-renamed/example.2/</link><pubDate>Sun, 09 Sep 2018 00:00:00 +0000</pubDate><guid>https://tanmaychk.github.io/courses-renamed/example.2/</guid><description>&lt;h2 id="flexibility">Flexibility&lt;/h2>
+&lt;p>This feature can be used for publishing content such as:&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Online courses&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>Project or software documentation&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>Tutorials&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;p>The &lt;code>courses&lt;/code> folder may be renamed. For example, we can rename it to &lt;code>docs&lt;/code> for software/project documentation or &lt;code>tutorials&lt;/code> for creating an online course.&lt;/p>
+&lt;h2 id="delete-tutorials">Delete tutorials&lt;/h2>
+&lt;p>&lt;strong>To remove these pages, delete the &lt;code>courses&lt;/code> folder and see below to delete the associated menu link.&lt;/strong>&lt;/p>
+&lt;h2 id="update-site-menu">Update site menu&lt;/h2>
+&lt;p>After renaming or deleting the &lt;code>courses&lt;/code> folder, you may wish to update any &lt;code>[[main]]&lt;/code> menu links to it by editing your menu configuration at &lt;code>config/_default/menus.toml&lt;/code>.&lt;/p>
+&lt;p>For example, if you delete this folder, you can remove the following from your menu configuration:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-toml" data-lang="toml">&lt;span style="display:flex;">&lt;span>[[&lt;span style="color:#a6e22e">main&lt;/span>]]
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a6e22e">name&lt;/span> = &lt;span style="color:#e6db74">&amp;#34;Courses&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a6e22e">url&lt;/span> = &lt;span style="color:#e6db74">&amp;#34;courses/&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a6e22e">weight&lt;/span> = &lt;span style="color:#ae81ff">50&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>Or, if you are creating a software documentation site, you can rename the &lt;code>courses&lt;/code> folder to &lt;code>docs&lt;/code> and update the associated &lt;em>Courses&lt;/em> menu configuration to:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-toml" data-lang="toml">&lt;span style="display:flex;">&lt;span>[[&lt;span style="color:#a6e22e">main&lt;/span>]]
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a6e22e">name&lt;/span> = &lt;span style="color:#e6db74">&amp;#34;Docs&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a6e22e">url&lt;/span> = &lt;span style="color:#e6db74">&amp;#34;docs/&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a6e22e">weight&lt;/span> = &lt;span style="color:#ae81ff">50&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="update-the-docs-menu">Update the docs menu&lt;/h2>
+&lt;p>If you use the &lt;em>docs&lt;/em> layout, note that the name of the menu in the front matter should be in the form &lt;code>[menu.X]&lt;/code> where &lt;code>X&lt;/code> is the folder name. Hence, if you rename the &lt;code>courses/example/&lt;/code> folder, you should also rename the menu definitions in the front matter of files within &lt;code>courses/example/&lt;/code> from &lt;code>[menu.example]&lt;/code> to &lt;code>[menu.&amp;lt;NewFolderName&amp;gt;]&lt;/code>.&lt;/p></description></item><item><title>Overview</title><link>https://tanmaychk.github.io/courses-renamed/example/</link><pubDate>Sun, 09 Sep 2018 00:00:00 +0000</pubDate><guid>https://tanmaychk.github.io/courses-renamed/example/</guid><description>&lt;h2 id="flexibility">Flexibility&lt;/h2>
+&lt;p>This feature can be used for publishing content such as:&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Online courses&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>Project or software documentation&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>Tutorials&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;p>The &lt;code>courses&lt;/code> folder may be renamed. For example, we can rename it to &lt;code>docs&lt;/code> for software/project documentation or &lt;code>tutorials&lt;/code> for creating an online course.&lt;/p>
+&lt;h2 id="delete-tutorials">Delete tutorials&lt;/h2>
+&lt;p>&lt;strong>To remove these pages, delete the &lt;code>courses&lt;/code> folder and see below to delete the associated menu link.&lt;/strong>&lt;/p>
+&lt;h2 id="update-site-menu">Update site menu&lt;/h2>
+&lt;p>After renaming or deleting the &lt;code>courses&lt;/code> folder, you may wish to update any &lt;code>[[main]]&lt;/code> menu links to it by editing your menu configuration at &lt;code>config/_default/menus.toml&lt;/code>.&lt;/p>
+&lt;p>For example, if you delete this folder, you can remove the following from your menu configuration:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-toml" data-lang="toml">&lt;span style="display:flex;">&lt;span>[[&lt;span style="color:#a6e22e">main&lt;/span>]]
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a6e22e">name&lt;/span> = &lt;span style="color:#e6db74">&amp;#34;Courses&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a6e22e">url&lt;/span> = &lt;span style="color:#e6db74">&amp;#34;courses/&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a6e22e">weight&lt;/span> = &lt;span style="color:#ae81ff">50&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>Or, if you are creating a software documentation site, you can rename the &lt;code>courses&lt;/code> folder to &lt;code>docs&lt;/code> and update the associated &lt;em>Courses&lt;/em> menu configuration to:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-toml" data-lang="toml">&lt;span style="display:flex;">&lt;span>[[&lt;span style="color:#a6e22e">main&lt;/span>]]
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a6e22e">name&lt;/span> = &lt;span style="color:#e6db74">&amp;#34;Docs&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a6e22e">url&lt;/span> = &lt;span style="color:#e6db74">&amp;#34;docs/&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a6e22e">weight&lt;/span> = &lt;span style="color:#ae81ff">50&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="update-the-docs-menu">Update the docs menu&lt;/h2>
+&lt;p>If you use the &lt;em>docs&lt;/em> layout, note that the name of the menu in the front matter should be in the form &lt;code>[menu.X]&lt;/code> where &lt;code>X&lt;/code> is the folder name. Hence, if you rename the &lt;code>courses/example/&lt;/code> folder, you should also rename the menu definitions in the front matter of files within &lt;code>courses/example/&lt;/code> from &lt;code>[menu.example]&lt;/code> to &lt;code>[menu.&amp;lt;NewFolderName&amp;gt;]&lt;/code>.&lt;/p></description></item></channel></rss>
