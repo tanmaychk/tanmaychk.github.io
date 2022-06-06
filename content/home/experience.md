@@ -6,7 +6,7 @@ active = true  # Activate this widget? true/false
 weight = 40  # Order that this section will appear.
 
 title = "Experience"
-subtitle = "PREVIOUS ASSOCIATIONS THAT HELPED TO GATHER EXPERIENCE"
+subtitle = "Experience is the comb that Nature gives us after we are bald."
 
 # Date format for experience
 #   Refer to https://sourcethemes.com/academic/docs/customization/#date-format
@@ -18,36 +18,17 @@ date_format = "Jan 2006"
 #   Leave `date_end` empty if it's your current employer.
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 [[experience]]
-  title = "CEO"
-  company = "GenCoin"
-  company_url = ""
-  location = "California"
-  date_start = "2017-01-01"
+  title = "UI/UX Designer (Intern)"
+  company = "Zooked India"
+  company_url = "https://www.linkedin.com/company/zooked-india/"
+  location = "Bangalore"
+  date_start = "2022-06-01"
   date_end = ""
-  description = """
-  Responsibilities include:
-  
-  * Analysing
-  * Modelling
-  * Deploying
+  # Add the description between triple quotes to allow multilines/para
+  description = """Zooked is a technology-based start-up that provides software as a service of aggregation of group bookings on a platform. As a User Experience Designer, I
+  * Create User-centred designs by understanding business requirements and user feedback.
+  * Create User flows, wireframes, prototypes, and mockups.
+  * Translate requirements into style guides, design systems, design patterns and attractive user interfaces."
   """
 
-[[experience]]
-  title = "Professor"
-  company = "University X"
-  company_url = ""
-  location = "California"
-  date_start = "2016-01-01"
-  date_end = "2016-12-31"
-  description = """Taught electronic engineering and researched semiconductor physics."""
-
-[[experience]]
-  title = "Professor"
-  company = "University Y"
-  company_url = ""
-  location = "California"
-  date_start = "2017-01-01"
-  date_end = "2016-12-30"
-  description = """Taught electronic engineering and researched semiconductor physics."""
-  
 +++

@@ -7,14 +7,14 @@ authors:
 - admin
 # resume download button
 btn:
-- url : "files/cv.pdf"
+- url : "files/Tanmay_Chakrabarty_CV.pdf"
   label : "Download Resume"
 
 # Is this the primary user of the site?
 superuser: true
 
 # Role/position
-role: B Tech (Computer Science & Engineering) Student
+role: B Tech (Computer Science & Engineering) Student 
 
 # Organizations/Affiliations
 organizations:
@@ -22,7 +22,7 @@ organizations:
   url: "https://www.srmist.edu.in/"
 
 # Short bio (displayed in user profile at end of posts)
-bio: My current interests include DevOps, Ful Stack Software Engineering and Product Development.
+bio: My current interests include DevOps, Full Stack Software Engineering and Product Development.
 
 # Should the user's education and interests be displayed?
 display_education: true
@@ -30,7 +30,7 @@ display_education: true
 interests:
 - Full Stack Engineering
 - DevOps
-- Product Developments
+- Product Development
 
 education:
   courses:
@@ -71,7 +71,7 @@ social:
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.  
 #- icon: cv
 #  icon_pack: ai
-#  link: files/cv.pdf
+#  link: files/Tanmay_Chakrabarty_CV.pdf
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email: ""

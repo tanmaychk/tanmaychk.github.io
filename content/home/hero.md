@@ -5,7 +5,7 @@ headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
 weight = 10  # Order that this section will appear.
 
-title = "Academia"
+title = "Tanmay Chakrabarty"
 
 # Hero image (optional). Enter filename of an image in the `static/img/` folder.
 hero_media = "tanmay-2.jpg"
@@ -34,11 +34,11 @@ hero_media = "tanmay-2.jpg"
 #   Display link(s) by specifying a URL and label below. Icon is optional for `[cta]`.
 #   Remove a link/note by deleting a cta/note block.
 [btn]
-  url = "/authors/tanmay"
+  url = "#about"
   label = "Know more"
   
 [btn_alt]
-  url = "http://forms.google.com/"
+  url = "https://forms.gle/Ac1YNtgUvJNLnrjj8"
   label = "Contact me"
 
 +++

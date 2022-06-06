@@ -7,26 +7,32 @@
   name = "About"
   url = "#about"
   weight = 10
-
+  
 [[main]]
-  name = "Blogs"
-  url = "#posts"
-  weight = 20
+  name = "Skills"
+  url = "#skills"
+  weight = 15
 
 [[main]]
   name = "Projects"
   url = "#projects"
   weight = 30
 
-#[[main]]0
-#  name = "Publications"
-#  url = "#publications"
-#  weight = 40
+[[main]]
+  name = "Work Experience"
+  url = "#experience"
+  weight = 40
 
 [[main]]
   name = "Courses"
   url = "#accomplishments"
   weight = 50
+  
+[[main]]
+  name = "Blogs"
+  url = "#posts"
+  weight = 20
+
 
 #[[main]]
 #  name = "Contact"
@@ -46,11 +52,11 @@
 [[main]]
   parent = "Resume"
   name = "PDF"
-  url = "files/cv.pdf"
+  url = "files/Tanmay_Chakrabarty_CV.pdf"
 
 # Link to a PDF of your resume/CV from the menu.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
 # [[main]]
 #    name = "CV"
-#    url = "files/cv.pdf"
+#    url = "files/Tanmay_Chakrabarty_CV.pdf"
 #    weight = 70
