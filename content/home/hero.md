@@ -8,7 +8,7 @@ weight = 10  # Order that this section will appear.
 title = "Academia"
 
 # Hero image (optional). Enter filename of an image in the `static/img/` folder.
-hero_media = "user-2.jpg"
+hero_media = "tanmay-2.jpg"
 
 [design.background]
   # Apply a background color, gradient, or image.
@@ -24,24 +24,24 @@ hero_media = "user-2.jpg"
   # gradient_end = "#000"
   
   # Background image.
-  # image = ""  # Name of image in `static/img/`.
-  # image_darken = 0.6  # Darken the image? Range 0-1 where 0 is transparent and 1 is opaque.
+   image = "bg.jpg"  # Name of image in `static/img/`.
+   image_darken = 0.5  # Darken the image? Range 0-1 where 0 is transparent and 1 is opaque.
 
   # Text color (true=light or false=dark).
-  text_color_light = false
+  text_color_light = true
 
 # Call to action links (optional).
 #   Display link(s) by specifying a URL and label below. Icon is optional for `[cta]`.
 #   Remove a link/note by deleting a cta/note block.
 [btn]
-  url = "/authors/admin"
+  url = "/authors/tanmay"
   label = "Know more"
   
 [btn_alt]
-  url = "#contact"
+  url = "http://forms.google.com/"
   label = "Contact me"
 
 +++
-## My name is **Michael Vahn** and I'm a **Professor** specializing in **Artificial Intelligence**
+## My name is **Tanmay Chakrabarty** and I'm a **Student** of B Tech in **Computer Science and Engineering**
 
-Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC.
+Welcome to my web home. This site would be a living record of my academic accomplishments and progress, and I will keep it updated, do visit often. I have listed the projects that I have worked on, internship experience, links to my writings and links to my Resume.

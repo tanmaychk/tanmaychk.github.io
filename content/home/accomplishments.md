@@ -5,8 +5,8 @@ headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
 weight = 50  # Order that this section will appear.
 
-title = "Accomplish&shy;ments"
-subtitle = "PREVIOUS ASSOCIATIONS THAT HELPED TO GATHER EXPERIENCE"
+title = "Courses"
+subtitle = "Various MOOC or other  extra curricular courses completed"
 
 # Date format
 #   Refer to https://sourcethemes.com/academic/docs/customization/#date-format
@@ -19,43 +19,43 @@ date_format = "Jan 2006"
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 
 [[item]]
-  organization = "Coursera"
+  organization = "Google"
   organization_url = "https://www.coursera.org"
-  title = "Neural Networks and Deep Learning"
-  url = ""
-  certificate_url = "https://www.coursera.org"
-  date_start = "2018-10-01"
+  title = "Google UX Design"
+  url = "https://www.coursera.org/professional-certificates/google-ux-design"
+  certificate_url = "https://www.coursera.org/account/accomplishments/specialization/certificate/LSPQK458VP58"
+  date_start = "2021-11-29"
   date_end = ""
-  description = "Formulated informed blockchain models, hypotheses, and use cases."
+  description = "An introductory-level 7-course program in UX design covering the design process from beginning to end: empathizing with users, defining their pain points, coming up with ideas for design solutions, creating wireframes and prototypes, and testing designs to get feedback."
 
 [[item]]
-  organization = "edX"
-  organization_url = "https://www.edx.org"
-  title = "Blockchain Fundamentals"
-  url = "https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals"
-  certificate_url = "https://www.edx.org"
-  date_start = "2018-03-01"
+  organization = "John Hopkins University"
+  organization_url = "https://www.coursera.org"
+  title = "HTML, CSS, and JavaScript for Web Developers"
+  url = "https://www.coursera.org/learn/html-css-javascript-for-web-developers"
+  certificate_url = "https://drive.google.com/file/d/1GJlhOKOMZPlsM7DVCD0hQ_-2FeWnzNED/view"
+  date_start = "2021-03-01"
   date_end = ""
-  description = "Formulated informed blockchain models, hypotheses, and use cases."
+  description = "Teaches from the ground how to implement modern web pages with HTML and CSS that will be just as useful on a mobile phone as on a desktop computer. Also includes a thorough introduction to JavaScript and AJAX."
   
 [[item]]
-  organization = "DataCamp"
-  organization_url = "https://www.datacamp.com"
-  title = "Object-Oriented Programming in R: S3 and R6 Course"
-  url = ""
-  certificate_url = "https://www.datacamp.com"
-  date_start = "2017-07-01"
-  date_end = "2017-12-21"
-  description = ""
+  organization = "University of Michigan"
+  organization_url = "https://www.coursera.org"
+  title = "Python Data Structures"
+  url = "https://www.coursera.org/learn/python-data?"
+  certificate_url = "https://drive.google.com/file/d/1GJlhOKOMZPlsM7DVCD0hQ_-2FeWnzNED/view"
+  date_start = "2021-03-20"
+  date_end = ""
+  description = "The course covers core data structures of the Python3 and usage of Python built-in data structures such as lists, dictionaries, and tuples to perform increasingly complex data analysis."
   
 [[item]]
-  organization = "RDX"
-  organization_url = "https://www.rdx.com"
-  title = "Object-Oriented Programming in R: S3 and R6 Course"
-  url = ""
-  certificate_url = "https://www.datacamp.com"
-  date_start = "2017-07-01"
-  date_end = "2017-12-21"
-  description = ""
+  organization = "University of Michigan"
+  organization_url = "https://www.coursera.org"
+  title = "Programming for Everybody (Getting Started with Python)"
+  url = "https://www.coursera.org/learn/python?"
+  certificate_url = "https://www.coursera.org/account/accomplishments/verify/MMMKX2W6JZ2M"
+  date_start = "2020-10-20"
+  date_end = ""
+  description = "Cover the basics of how one constructs a program from a series of simple instructions in Python."
 
 +++
