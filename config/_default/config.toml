@@ -16,7 +16,7 @@ baseURL = "https://tanmaychk.github.io/"
 copyright = "Copyright &copy; {year}"
 
 # Enable analytics by entering your Google Analytics tracking ID
-googleAnalytics = ""
+googleAnalytics = "G-H80MXC7BVP"
 
 # Enable comments by entering your Disqus shortname
 disqusShortname = "tanmayc"
