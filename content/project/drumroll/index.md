@@ -6,7 +6,7 @@ tags:
 - UI
 - UX
 - Design Thinking
-date: 2021-05-21T00:00:00Z
+date: 2022-06-15T00:00:00+05:30
 external_link: 
 image:
   caption: Screengrab by Tanmay
