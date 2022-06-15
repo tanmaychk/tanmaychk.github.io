@@ -13,7 +13,7 @@ sections:
   path: content
   label: Pages
   create: all
-  match: "*"
+  match: "**/*"
 upload_dir: static/img
 public_path: "/img"
 front_matter_path: ''
