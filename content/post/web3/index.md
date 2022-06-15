@@ -18,8 +18,7 @@ image:
   caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/cHMWByk5vE8)'
   focal_point: Center
   preview_only: false
-projects:
-- pressb
+projects: []
 gallery_item:
 - album: gallery
   caption: Default
