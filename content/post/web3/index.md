@@ -1,40 +1,30 @@
 ---
-title: 'What impact does Web3 have on a developer''s life?'
-subtitle: 'The popularity of Web3, Blockchain, and Cryptocurrency has resulted in a large number of job openings in these disciplines.'
-summary: The popularity of Web3, Blockchain, and Cryptocurrency has resulted in a large number of job openings in these disciplines.
+title: What impact does Web3 have on a developer's life?
+subtitle: The popularity of Web3, Blockchain, and Cryptocurrency has resulted in a
+  large number of job openings in these disciplines.
+summary: The popularity of Web3, Blockchain, and Cryptocurrency has resulted in a
+  large number of job openings in these disciplines.
 authors:
 - tanmay
 tags:
 - Blockchain
 - Web3
-categories: [Trend]
-date: "2022-06-03T00:00:00Z"
-lastmod: "2022-06-03T00:00:00Z"
+categories:
+- Trend
+date: 2022-06-03T00:00:00Z
+lastmod: 2022-06-03T00:00:00Z
 featured: true
-draft: false
-
-# Featured image
-# To use, add an image named `featured.jpg/png` to your page's folder.
-# Focal point options: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight
 image:
   caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/cHMWByk5vE8)'
-  focal_point: "Center"
+  focal_point: Center
   preview_only: false
-
-# Projects (optional).
-#   Associate this post with one or more of your projects.
-#   Simply enter your project's folder or file name without extension.
-#   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
-#   Otherwise, set `projects = []`.
-projects: [] 
-
-# Set captions for image gallery.
+projects: []
 gallery_item:
 - album: gallery
   caption: Default
   image: theme-default.png
----
 
+---
 Web3, blockchain, and cryptocurrency have all become broad words that have captivated the world's attention due to their incredible benefits and rewards. This popularity has resulted in a large number of employment openings in these disciplines.
 
 ## Market Development
@@ -58,11 +48,9 @@ Cryptography refers to a variety of encryption algorithms that use cryptographic
 As the success rate of cryptocurrencies and blockchain grows year after year, the number of job openings in the blockchain and cryptocurrency business grows. Jobs in blockchain are rising at a rate of 2,000-6,000 percent each year, with pay that are 50-100 percent greater than those of traditional developers. A blockchain developer is a person who works in the field of blockchain technology.
 
 * **Block chain Developer**: This is a highly marketable professional path in which one assists a company in marketing the blockchain platform and creating a high demand for it, which is becoming much easier now that many people are interested in the benefits block chain has to offer. To pursue this professional path, one must have a few years of experience in fields such as C++, JavaScript, and Python.
-
 * **Blockchain Project Manager**: This position requires the development of blockchain solutions as well as cloud project management and basic technical abilities. Work as a solution architect, UX designer, and many other positions are available. Crypto-related job postings increased by 395 percent in 2021 alone. Chief artificial intelligence engineer is one of the most in-demand positions.
-
-* **Chief Artificial Intelligence Engineer**: The engineer is in charge of programming and developing algorithms that aid in the development of AI and improve cybersecurity for safe and secure crypto exchanges.
+* **Chief Artificial Intelligence Engineer**: The engineer oversees programming and developing algorithms that aid in the development of AI and improve cybersecurity for safe and secure crypto exchanges.
 
 As we swiftly transition into a new era with new specialities and technology, many chances in organisations and [dApps](https://www.investopedia.com/terms/d/decentralized-applications-dapps.asp) (decentralised applications) that seek to solve difficult challenges are becoming available. You'll also have the opportunity to collaborate with some of the industry's brightest minds.
 
-> *Reproduced from my post at [Dev.to](https://dev.to/tanmaychk/what-impact-does-web3-have-on-your-developer-life-1109)*
+> _Reproduced from my post at_ [_Dev.to_](https://dev.to/tanmaychk/what-impact-does-web3-have-on-your-developer-life-1109)
