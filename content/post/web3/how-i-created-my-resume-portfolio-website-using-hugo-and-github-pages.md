@@ -1,8 +1,7 @@
 +++
 authors = ["tanmay"]
 categories = []
-date = ""
-draft = true
+date = 2022-06-16T18:30:00Z
 featured = false
 gallery_item = []
 lastmod = ""
@@ -12,8 +11,8 @@ summary = "A step-by-step tutorial to create a static Resume and Portfolio websi
 tags = ["Hugo", "CI/CD", "Workflow", "GitHub"]
 title = "How I created my Resume/Portfolio website using Hugo and GitHub pages?"
 [image]
-caption = ""
-focal_point = ""
+caption = "Photo by Kaitlyn Baker on Unsplash"
+focal_point = "smart"
 preview_only = false
 
 +++
