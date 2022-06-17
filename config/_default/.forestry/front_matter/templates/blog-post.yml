@@ -1,0 +1,60 @@
+---
+label: Blog Post
+hide_body: false
+fields:
+- type: text
+  name: title
+  label: title
+- type: textarea
+  name: subtitle
+  label: subtitle
+- type: textarea
+  name: summary
+  label: summary
+- type: list
+  name: authors
+  label: authors
+- type: list
+  name: tags
+  label: tags
+- type: list
+  name: categories
+  label: categories
+- type: datetime
+  name: date
+  label: date
+- type: datetime
+  name: lastmod
+  label: lastmod
+- type: boolean
+  name: featured
+  label: featured
+- type: field_group
+  name: image
+  label: image
+  fields:
+  - type: text
+    name: caption
+    label: caption
+  - type: text
+    name: focal_point
+    label: focal_point
+  - type: boolean
+    name: preview_only
+    label: preview_only
+- type: list
+  name: projects
+  label: projects
+- type: field_group_list
+  name: gallery_item
+  label: gallery_item
+  fields:
+  - type: text
+    name: album
+    label: album
+  - type: text
+    name: caption
+    label: caption
+  - type: file
+    name: image
+    label: image
