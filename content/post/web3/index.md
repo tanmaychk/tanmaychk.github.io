@@ -11,9 +11,9 @@ tags:
 - Web3
 categories:
 - Trend
-date: 2022-06-03T00:00:00Z
-lastmod: 2022-06-03T00:00:00Z
-featured: true
+date: 2022-06-03T00:00:00.000+00:00
+lastmod: 2022-06-03T00:00:00.000+00:00
+featured: false
 image:
   caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/cHMWByk5vE8)'
   focal_point: Center
