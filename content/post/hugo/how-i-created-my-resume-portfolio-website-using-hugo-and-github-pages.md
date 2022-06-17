@@ -2,7 +2,6 @@
 authors = ["tanmay"]
 categories = ["WebDev"]
 date = 2022-06-16T18:30:00Z
-draft = true
 featured = false
 gallery_item = []
 lastmod = ""
