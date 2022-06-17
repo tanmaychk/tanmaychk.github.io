@@ -2,7 +2,7 @@
 authors = ["tanmay"]
 categories = ["WebDev"]
 date = 2022-06-16T18:30:00Z
-featured = false
+featured = true
 gallery_item = []
 lastmod = ""
 projects = []
@@ -89,8 +89,7 @@ In my case I create a workflow that will
 
 To create the workflow, click "Actions" link on the repository page, then click "New Workflow" and paste the YAML content provided below. Then save the workflow.
 
-
-![GitHub Actions Workflow](post/gh-actions.jpg)
+![GitHub Actions Workflow](post/gh-actions.jpg "GitHub Actions Workflow")
 
 Interesting to note that GitHub stores this workflow in the "main" branch under _.github/workflows_ folder. For more details on this Action please refer the documentation and code at https://github.com/peaceiris/actions-gh-pages.
 
