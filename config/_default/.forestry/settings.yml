@@ -14,7 +14,7 @@ sections:
   label: Pages
   create: all
   match: "**/*"
-upload_dir: content/post/hugo
+upload_dir: content/post
 public_path: "/post"
 front_matter_path: ''
 use_front_matter_path: false
