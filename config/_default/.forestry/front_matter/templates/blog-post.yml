@@ -58,3 +58,5 @@ fields:
   - type: file
     name: image
     label: image
+pages:
+- content/post/web3/how-i-created-my-resume-portfolio-website-using-hugo-and-github-pages.md
