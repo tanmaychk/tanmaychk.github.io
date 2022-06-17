@@ -34,7 +34,7 @@
 &lt;li>check-in the content of the &amp;ldquo;&lt;em>public&lt;/em>&amp;rdquo; folder to the &amp;ldquo;&lt;em>gh-pages&lt;/em>&amp;rdquo; branch of the repository&lt;/li>
 &lt;/ol>
 &lt;p>To create the workflow, click &amp;ldquo;Actions&amp;rdquo; link on the repository page, then click &amp;ldquo;New Workflow&amp;rdquo; and paste the YAML content provided below. Then save the workflow.&lt;/p>
-&lt;p>&lt;img src="post/gh-actions.jpg" alt="GitHub Actions Workflow" title="GitHub Actions Workflow">&lt;/p>
+&lt;p>&lt;img src="https://tanmaychk.github.io/post/hugo/gh-actions.jpg" alt="GitHub Actions Workflow" title="GitHub Actions Workflow">&lt;/p>
 &lt;p>Interesting to note that GitHub stores this workflow in the &amp;ldquo;main&amp;rdquo; branch under &lt;em>.github/workflows&lt;/em> folder. For more details on this Action please refer the documentation and code at &lt;a href="https://github.com/peaceiris/actions-gh-pages">https://github.com/peaceiris/actions-gh-pages&lt;/a>.&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-yaml" data-lang="yaml">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#f92672">name&lt;/span>: &lt;span style="color:#ae81ff">GitHub Pages&lt;/span>
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
