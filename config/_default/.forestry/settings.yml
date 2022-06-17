@@ -14,8 +14,8 @@ sections:
   label: Pages
   create: all
   match: "**/*"
-upload_dir: content/post
-public_path: "/img"
+upload_dir: content/post/hugo
+public_path: "/post"
 front_matter_path: ''
 use_front_matter_path: false
 file_template: ":filename:"
