@@ -46,7 +46,7 @@ icon_pack = "devicon-firebase-plain"
 name = "Firebase NoSQL"
 parcent = "65%"
 [[feature]]
-icon = "C"
+icon = "git"
 icon_pack = "devicon-git-plain"
 name = "Git SCM"
 parcent = "70%"
