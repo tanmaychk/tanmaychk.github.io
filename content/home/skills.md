@@ -41,7 +41,7 @@ icon_pack = "devicon-unix-original"
 name = "Unix"
 parcent = "70%"
 [[feature]]
-icon = "CSS"
+icon = "firebase"
 icon_pack = "devicon-firebase-plain"
 name = "Firebase NoSQL"
 parcent = "65%"
