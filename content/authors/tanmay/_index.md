@@ -7,7 +7,7 @@ btn:
 - url: files/Tanmay_Chakrabarty_CV.pdf
   label: Download Resume
 superuser: true
-role: B Tech (Computer Science & Engineering) Student
+role: 'B Tech (Computer Science & Engineering) Student '
 organizations:
 - name: " SRM University"
   url: https://www.srmist.edu.in/
