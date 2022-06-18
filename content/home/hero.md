@@ -12,7 +12,7 @@ url = "#about"
 label = "Contact me"
 url = "https://forms.gle/Ac1YNtgUvJNLnrjj8"
 [design]
-columns = "2"
+columns = ""
 [design.background]
 color = "#fff"
 image = "bg.jpg"
