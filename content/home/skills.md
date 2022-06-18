@@ -51,7 +51,7 @@ icon_pack = "devicon-git-plain"
 name = "Git SCM"
 parcent = "70%"
 [[feature]]
-icon = "C"
+icon = "figma"
 icon_pack = "devicon-figma-plain"
 name = "Figma"
 parcent = "80%"
