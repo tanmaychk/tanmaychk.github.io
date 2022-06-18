@@ -1,0 +1,44 @@
+---
+label: Project
+hide_body: false
+fields:
+- type: text
+  name: title
+  label: title
+- type: text
+  name: summary
+  label: summary
+- type: list
+  name: tags
+  label: tags
+- type: datetime
+  name: date
+  label: date
+- type: text
+  name: external_link
+  label: external_link
+- type: field_group
+  name: image
+  label: image
+  fields:
+  - type: text
+    name: caption
+    label: caption
+  - type: text
+    name: focal_point
+    label: focal_point
+  - type: boolean
+    name: preview_only
+    label: preview_only
+- type: text
+  name: url_code
+  label: url_code
+- type: text
+  name: url_pdf
+  label: url_pdf
+- type: text
+  name: url_slides
+  label: url_slides
+- type: text
+  name: url_video
+  label: url_video
