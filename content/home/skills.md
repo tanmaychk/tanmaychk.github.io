@@ -21,7 +21,7 @@ icon_pack = "devicon-python-plain"
 name = "Python 3"
 parcent = "75%"
 [[feature]]
-icon = "user-secret"
+icon = "html5"
 icon_pack = "devicon-html5-plain"
 name = "HTML-5"
 parcent = "80%"
