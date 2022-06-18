@@ -9,7 +9,7 @@ btn:
 superuser: true
 role: 'B Tech (Computer Science & Engineering) Student '
 organizations:
-- name: " SRM University"
+- name: SRM University
   url: https://www.srmist.edu.in/
 bio: My current interests include DevOps, Full Stack Software Engineering and Product
   Development.
