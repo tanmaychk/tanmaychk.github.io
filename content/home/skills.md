@@ -26,7 +26,7 @@ icon_pack = "devicon-html5-plain"
 name = "HTML-5"
 parcent = "80%"
 [[feature]]
-icon = "chart-line"
+icon = "css3"
 icon_pack = "devicon-css3-plain"
 name = "CSS-3"
 parcent = "80%"
