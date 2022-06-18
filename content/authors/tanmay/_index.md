@@ -1,63 +1,38 @@
 ---
-# Display name
 name: Tanmay Chakrabarty
-avatar_image: "hero.jpg"
-# Username (this should match the folder name)
+avatar_image: hero.jpg
 authors:
 - admin
-# resume download button
 btn:
-- url : "files/Tanmay_Chakrabarty_CV.pdf"
-  label : "Download Resume"
-
-# Is this the primary user of the site?
+- url: files/Tanmay_Chakrabarty_CV.pdf
+  label: Download Resume
 superuser: true
-
-# Role/position
-role: B Tech (Computer Science & Engineering) Student 
-
-# Organizations/Affiliations
+role: B Tech (Computer Science & Engineering) Student
 organizations:
 - name: SRM University
-  url: "https://www.srmist.edu.in/"
-
-# Short bio (displayed in user profile at end of posts)
-bio: My current interests include DevOps, Full Stack Software Engineering and Product Development.
-
-# Should the user's education and interests be displayed?
+  url: https://www.srmist.edu.in/
+bio: My current interests include DevOps, Full Stack Software Engineering and Product
+  Development.
 display_education: true
-
 interests:
 - Full Stack Engineering
 - DevOps
 - Product Development
-
 education:
   courses:
   - course: B.Tech (CSE)
     institution: SRM University
-    year: 2024
+    year: "2024"
   - course: Senior School Certificate (XII)
     institution: DAV Public School
-    year: 2020
-
-# Social/academia Networking
-# For available icons, see: https://sourcethemes.com/academic/docs/widgets/#icons
-#   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
-#   form "mailto:your-email@example.com" or "#contact" for contact widget.
+    year: "2020"
 social:
-#- icon: envelope
-#  icon_pack: fas
-#  link: '#contact'  # For a direct email link, use "mailto:test@example.org".
 - icon: linkedin
   icon_pack: fab
   link: https://www.linkedin.com/in/tanmay-chakrabarty
 - icon: behance
   icon_pack: fab
   link: https://www.behance.net/tanmaychakrab2
-#- icon: google-scholar
-#  icon_pack: ai
-#  link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
 - icon: github
   icon_pack: fab
   link: https://github.com/tanmaychk
@@ -67,22 +42,10 @@ social:
 - icon: spotify
   icon_pack: fab
   link: https://open.spotify.com/user/6didkjs7uxxef61kvn6xysuin?si=g6FvR9_aQjOU86Ac4pUfAw&nd=1
-# Link to a PDF of your resume/CV from the About widget.
-# To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.  
-#- icon: cv
-#  icon_pack: ai
-#  link: files/Tanmay_Chakrabarty_CV.pdf
+email: ''
+user_groups: []
 
-# Enter email to display Gravatar (if Gravatar enabled in Config)
-email: ""
-  
-# Organizational groups that you belong to (for People widget)
-#   Set this to `[]` or comment out if you are not using People widget.  
-user_groups:
-- Researchers
-- Visitors
 ---
-
 I am passionate about User Interface/User Experience Design and Programming. Fluent in Python, JavaScript libraries (ReactJS), HTML5/CSS, UI Prototyping tools (Figma); catching up on multiple others. Presently aiming to pursue a career in the field of Cloud Native Product Development as a Full Stack Engineer (but things change, right?).
 
 <!--
