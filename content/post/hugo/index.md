@@ -61,6 +61,8 @@ The site will now be accessible at http://localhost:1313 (your port could vary, 
 
 Academia theme has in-built support to add details about Courses, Projects, Skills, and Blogs. I changed the content (text as well as images) according to my needs and kept checking it locally. Images were added under the _static/img_ folder. I also added my resume PDF under _static/files_ folder and added the link to the PDF via the  _config/_default/menus.toml_ config file.
 
+I created the PDF version of my resume using [LaTeX](https://www.latex-project.org/about/) and [Overleaf](https://www.overleaf.com/). The GitHub repo is [here](https://github.com/tanmaychk/Latex-Resume) if you are interested.
+
 ## Generating the website
 
 Hugo can help generate the HTML and static files that we would deploy to our website (remember raw HTML are the crux if the static website thingy). You can deploy them using online CMS tools like Netlify and Forestry.io, after generating the public website through the following simple command:
@@ -134,4 +136,8 @@ jobs:
           publish_dir: ./public
 ```
 
-Now it's time to check-in the code from our local laptop to the Github pages repo "_tanmaychk.github.io_". As soon as the code is pushed to GitHub, the "GitHub Pages" actions workflow gets triggered and in couple of minutes our website is published to the _gh-pages_ branch. Now the site can be viewed at https://tanmaychk.github.io/.
+Now it's time to check-in the code from our local laptop to the Github pages repo "_tanmaychk.github.io_". As soon as the code is pushed to GitHub, the "GitHub Pages" actions workflow gets triggered and in couple of minutes our website is published to the _gh-pages_ branch. My site is now ready to be viewed at [https://tanmaychk.github.io/](https://tanmaychk.github.io/ "https://tanmaychk.github.io/").
+
+Hope this helps to create a resume/portfolio website of your own.
+
+> Cross posted at [Dev.To](https://dev.to/tanmaychk/how-i-created-my-portfolio-website-using-hugo-and-github-pages-1b89 "Dev.To")
