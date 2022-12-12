@@ -14,4 +14,4 @@ focal_point = "Smart"
 preview_only = false
 
 +++
-Used Python and Pandas to create a scoring system that displays movie commendations based on comparable users. Used the 25m data-set provided by the Movie Lens and used the Ipywidgets library.
+Used Python and Pandas to create a scoring system that displays movie commendations based on comparable users. Used the 25m dataset provided by the Movie Lens and used the Ipywidgets library.
