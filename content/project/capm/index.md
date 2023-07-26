@@ -1,9 +1,7 @@
 ---
 title: Capital Asset Pricing Model
 summary: Performs calculations based on CAPM for different stocks of the S&P 500
-tags:
-- CAPM
-- React
+tags = ["Pandas", "NumPy" "Python", "Streamlit", "Plotly", "CAPM"]
 date: 2023-06-01T00:00:00Z
 external_link: 
 image:
