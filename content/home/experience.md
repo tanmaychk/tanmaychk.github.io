@@ -18,17 +18,33 @@ date_format = "Jan 2006"
 #   Leave `date_end` empty if it's your current employer.
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 [[experience]]
-  title = "UI/UX Designer (Intern)"
+  title = "iOS Developer Intern"
+  company = "Infosys"
+  company_url = "https://www.linkedin.com/company/infosys/"
+  location = "Chennai"
+  date_start = "2023-04-01"
+  date_end = "2023-05-31"
+  # Add the description between triple quotes to allow multilines/para
+  description = """Designed and developed a Hospital Management iOS application using Swift; worked with Node.js and MongoDB for a scalable backend implementation.
+  * Played a pivotal role in the requirement gathering, design discussions. Used Jira ALM for managing the sprint backlog, creating roadmaps, and logging defects.
+  * Collaborated as part of the 10-member Scrum team to achieve project goals on time. Participated in code reviews, debugging, and testing.
+  * Improved backend performance by 90% through database optimization and NodeJS async programming techniques.
+  """
+[[experience]]
+  title = "Product Designer Intern"
   company = "Zooked India"
   company_url = "https://www.linkedin.com/company/zooked-india/"
   location = "Bangalore"
   date_start = "2022-06-01"
-  date_end = ""
+  date_end = "2022-08-30"
   # Add the description between triple quotes to allow multilines/para
-  description = """Zooked is a technology-based start-up that provides software as a service of aggregation of group bookings on a platform. As a User Experience Designer, I
-  * Create User-centred designs by understanding business requirements and user feedback.
-  * Create User flows, wireframes, prototypes, and mockups.
-  * Translate requirements into style guides, design systems, design patterns and attractive user interfaces."
+  description = """Zooked is a technology-based start-up that provides software as a service of aggregation of group bookings on a platform. As a User Experience Designer I, 
+  * Researched and Designed modules using Figma and Adobe XD.
+  * Translated business requirements into UI and high-fidelity mockups to effectively convey the envisioned design of the final product.
+  * Frequently sought and incorporated user feedback during design to reduce defects.
+  * Implemented design systems and standardized design patterns.
+  * Provided design variants for facilitating A/B testing.
   """
+
 
 +++
